@@ -25,7 +25,7 @@ for i in range(i_row_b):                # search by row
         if payoff_b[i,j] == payoff_b[i,:].max():
             print('在第%s行，b的占优策略位于第%s列' %((i+1) , (j+1) ))
 
-
+# 接下去判定（严格）纯策略纳什均衡
 
 
 
